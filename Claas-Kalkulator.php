@@ -9,12 +9,15 @@ class Calculator {
       }
       
   public function setOperator($operator) {
-      $this->operator = $operator
+      $this->operator = $operator;
       }
       
   public function getHasil() {
       return $this->output;
       }
+  public int pertambahan(){
+    return $angka1 + $angka2;
+  }
  }
 
 ?>
