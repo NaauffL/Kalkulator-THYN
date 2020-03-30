@@ -9,6 +9,9 @@ class Kalkulator {
       int kurang(int x, int y){
           return x-y;
       }
+      int kali(int p, int q){
+          return p*q;
+      }
   }operasi;
 
 
@@ -19,4 +22,5 @@ int main() {
      cout << "Bilangan 2 : "; cin >> b; cout << endl;
      cout << "Hasil Penjumlahan = " << operasi.tambah(a, b);
      cout << "Hasil pengurangan = " << operasi.kurang(a, b);
+     cout << "Hasil Perkalian   = " << operasi.kali(a,b);
 }
