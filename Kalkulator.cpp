@@ -26,6 +26,6 @@ int main() {
      cout << "Hasil Penjumlahan = " << operasi.tambah(a, b);
      cout << "Hasil pengurangan = " << operasi.kurang(a, b);
      cout << "Hasil Perkalian   = " << operasi.kali(a,b);
-     cout << "Hasil Pembagian = " <<operasi.bagi(a,b);
+     cout << "Hasil Pembagian   = " << operasi.bagi(a,b);
 }
 
