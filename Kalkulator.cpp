@@ -12,6 +12,9 @@ class Kalkulator {
       int kali(int p, int q){
           return p*q;
       }
+      int bagi (int p, int q){
+          return p/q;
+      }
   }operasi;
 
 
@@ -23,4 +26,6 @@ int main() {
      cout << "Hasil Penjumlahan = " << operasi.tambah(a, b);
      cout << "Hasil pengurangan = " << operasi.kurang(a, b);
      cout << "Hasil Perkalian   = " << operasi.kali(a,b);
+     cout << "Hasil Pembagian = " operasi.bagi(a,b);
 }
+
